@@ -1,0 +1,18 @@
+{
+  "name": "gen-app-version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/gen-app-version.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "somq",
+  "license": "ISC",
+  "bin": {
+    "genAppVersionTS": "./bin/gen-app-version.js"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "git-describe": "^4.0.2"
+  }
+}
