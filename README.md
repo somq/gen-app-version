@@ -4,7 +4,9 @@
 
 ### Install
 
+```sh
 npm i -g gen-app-version
+```
 
 ### Usage
 
