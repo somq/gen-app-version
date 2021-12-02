@@ -4,15 +4,22 @@
 
 > 🔢 Standard `app-version.ts` file generator from command line through `git describe`.
 
-### Install
+npx
 
 ```sh
-npm i -g gen-app-version
+# Generate file
+npx gen-app-version
+
+Wrote version info v1.13.0-1-g9697d15 to /path/to/my-git-local-repo/app-version.ts
 ```
 
-### Usage
+Global install
 
 ```sh
+# Install package globally
+npm i -g gen-app-version
+
+# Generate file
 cd my-git-local-repo
 gen-app-version
 
@@ -23,7 +30,6 @@ Wrote version info v1.13.0-1-g9697d15 to /path/to/my-git-local-repo/app-version.
 
 ```sh
 gen-app-version
-gav
 genAppVersion (legacy)
 ```
 
