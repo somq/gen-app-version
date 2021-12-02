@@ -1,18 +1,21 @@
 {
   "name": "gen-app-version",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
   "main": "./lib/gen-app-version.js",
   "scripts": {
+    "start": "./lib/gen-app-version.js",
     "test": ""
   },
   "author": "somq",
-  "license": "ISC",
+  "license": "MIT",
   "bin": {
-    "genAppVersionTS": "./bin/gen-app-version.js"
+    "genAppVersionTS": "./bin/gen-app-version.js",
+    "gen-app-version": "./bin/gen-app-version.js",
+    "gav": "./bin/gen-app-version.js"
   },
   "dependencies": {
-    "fs-extra": "^7.0.1",
-    "git-describe": "^4.0.2"
+    "fs-extra": "^10.0.0",
+    "git-describe": "^4.1.0"
   }
 }
