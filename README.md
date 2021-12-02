@@ -2,7 +2,7 @@
 
 ## Typescript app version file
 
-> 🔢 Standard `app-version.ts` file generator from `git describe`.
+> 🔢 Standard `app-version.ts` file generator from command line through `git describe`.
 
 ### Install
 
